@@ -23,32 +23,37 @@ function LandingCard({ item }) {
             <label>{rating}</label>
             <span>GP</span>
             <label>{time}</label>
+            <p>{desc}</p>
+            <div className="cast">
+              <h4>
+                <span>Starring</span>
+                {starring}
+              </h4>
+              <h4>
+                <span>Genres</span>
+                {genres}
+              </h4>
+              <h4>
+                <span>Tags</span>
+                {tags}
+              </h4>
+            </div>
+            <button className="primary-btn">
+              <i className="fas fa-play"></i>
+              PLAY NOW
+            </button>
           </div>
-          <p>{desc}</p>
-          <div className="cast">
-            <h4>
-              <span>Starring</span>
-              {starring}
-            </h4>
-            <h4>
-              <span>Genres</span>
-              {genres}
-            </h4>
-            <h4>
-              <span>Tags</span>
-              {tags}
-            </h4>
-          </div>
-          <button className="primary-btn">
-            <i className="fas fa-play"></i>
-            PLAY NOW
-          </button>
-          <div className="button row">
+
+          <div className="playButton row">
             <Link to={`/singlepage/${id}`}>
               <button>
                 <div className="img">
                   <img src="/images/play-button.png" alt="play-button image" />
-                  <img src="/images/play.png" alt="play image" />
+                  <img
+                    src="/images/play.png"
+                    alt="play image"
+                    className="change"
+                  />
                 </div>
                 WATCH TRAILER
               </button>
