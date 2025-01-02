@@ -1,4 +1,5 @@
-import LandingCard from "./LandingCard";
+import { Link } from "react-router-dom";
+import UCard from "./UCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -25,28 +26,45 @@ function SamplePrevArrow(props) {
   );
 }
 
-function Landing({ items }) {
+function Upcomming({ items, title }) {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <>
-      <div className="homeContainer">
-        <Slider {...settings}>
-          {items.map((item) => (
-            <LandingCard key={item.id} item={item} />
-          ))}
-        </Slider>
-      </div>
+      <section className="upcome">
+        <div className="container">
+          <div className="heading flexSB">
+            <h1>{title}</h1>
+            <Link to="/">View All</Link>
+          </div>
+          <div className="content">
+            <Slider {...settings}>
+              {items.map((item) => (
+                <UCard key={item.id} item={item} />
+              ))}
+            </Slider>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
 
-export default Landing;
+export default Upcomming;
