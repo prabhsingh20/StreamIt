@@ -8,7 +8,7 @@ export const homeData = [
     starring: "Karen Gilchrist, James Earl Jones",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "../images/home1.jpg",
+    cover: "/images/home1.jpg",
     video: "../video/video1.mp4",
     date: "20-Jan-1997",
   },
@@ -21,7 +21,7 @@ export const homeData = [
     starring: "Brenda Chapman, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Animation,Family",
-    cover: "../images/home2.jpg",
+    cover: "/images/home2.jpg",
     video: "../video/video2.mp4",
     date: "10-JUL-2021",
   },
@@ -34,7 +34,7 @@ export const homeData = [
     starring: "James Chinlund, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Action ",
-    cover: "../images/home3.jpg",
+    cover: "/images/home3.jpg",
     video: "../video/video3.mp4",
     date: "20-FEB-2010",
   },
@@ -47,11 +47,11 @@ export const homeData = [
     starring: "Karen Gilchrist, James Earl Jones",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "../images/home4.jpg",
+    cover: "/images/home4.jpg",
     video: "../video/video4.mp4",
     date: "12-Aug-2015",
   },
-]
+];
 export const upcome = [
   {
     id: 1,
@@ -83,7 +83,7 @@ export const upcome = [
     name: "Jumbo Queen",
     time: "2hr : 38mins",
   },
-]
+];
 export const latest = [
   {
     id: 1,
@@ -115,7 +115,7 @@ export const latest = [
     name: "Latest Three",
     time: "2hr : 38mins",
   },
-]
+];
 
 export const trending = [
   {
@@ -154,7 +154,7 @@ export const trending = [
     cover: "../images/img/slide3.jpg",
     date: "20-FEB-2010",
   },
-]
+];
 export const recommended = [
   {
     id: 4,
@@ -186,4 +186,4 @@ export const recommended = [
     name: "Another Danger",
     time: "2hr : 38mins",
   },
-]
+];
