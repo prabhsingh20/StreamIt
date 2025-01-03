@@ -26,12 +26,12 @@
 }
 
 .homeContainer .content {
-  padding: 100px;
+  padding: 60px 100px;
 }
 
 .homeContainer h1 {
-  margin-top: 80px;
-  font-size: 90px;
+  margin-top: 70px;
+  font-size: 80px;
   text-transform: uppercase;
   font-weight: 800;
   background-image: url("/images/texure.jpg");
@@ -40,6 +40,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-font-smoothing: antialiased;
+}
+
+.homeContainer p {
+  line-height: 1.7;
 }
 
 .coverImage::after {
@@ -61,7 +65,7 @@
 }
 
 .homeContainer .rating {
-  margin: 30px 0;
+  margin: 20px 0 10px 0;
 }
 
 .rating i {
@@ -81,7 +85,7 @@
 }
 
 .homeContainer .cast {
-  margin: 30px 0;
+  margin: 30px 0 15px 0;
 }
 
 .cast h4 {
@@ -109,6 +113,10 @@
   top: 0;
   left: 0;
   opacity: 0;
+}
+
+.fa-play {
+  margin-right: 10px;
 }
 
 .playButton img {

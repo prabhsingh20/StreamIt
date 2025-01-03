@@ -36,7 +36,7 @@ function Header() {
             <i className="fa fa-search"></i>
             <i className="fa fa-bell"></i>
             <i className="fa fa-user"></i>
-            <button>Subscribe Now</button>
+            <button className="subscribe">Subscribe Now</button>
           </div>
         </div>
       </header>
