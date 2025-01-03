@@ -1,5 +1,5 @@
 function UCard({ item }) {
-  const { id, cover, name, time } = item;
+  const { cover, name, time } = item;
 
   return (
     <>

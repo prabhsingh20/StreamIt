@@ -5,9 +5,9 @@ import { upcome, latest, recommended } from "../dummyData";
 import Trending from "../components/trending/Trending";
 
 function HomePage() {
-  const [upcoming, setUpcoming] = useState(upcome);
-  const [fresh, setFresh] = useState(latest);
-  const [recmd, setRecmd] = useState(recommended);
+  const [upcoming] = useState(upcome);
+  const [fresh] = useState(latest);
+  const [recmd] = useState(recommended);
 
   return (
     <>

@@ -4,7 +4,7 @@ import Landing from "../landing/Landing";
 import "./trending.css";
 
 function Trending() {
-  const [trend, setTrend] = useState(trending);
+  const [trend] = useState(trending);
 
   return (
     <>
