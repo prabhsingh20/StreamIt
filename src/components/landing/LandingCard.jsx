@@ -21,20 +21,20 @@ function LandingCard({ item }) {
               <i className="fa fa-star-half"></i>
             </div>
             <label>{rating}</label>
-            <span>GP</span>
-            <label>{time}</label>
+            <span> GP </span>
+            <label>| {time}</label>
             <p>{desc}</p>
             <div className="cast">
               <h4>
-                <span>Starring</span>
+                <span>Starring: </span>
                 {starring}
               </h4>
               <h4>
-                <span>Genres</span>
+                <span>Genres: </span>
                 {genres}
               </h4>
               <h4>
-                <span>Tags</span>
+                <span>Tags: </span>
                 {tags}
               </h4>
             </div>

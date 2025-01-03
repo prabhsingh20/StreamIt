@@ -1,6 +1,5 @@
 header {
-  height: 10vh;
-  line-height: 10vh;
+  line-height: 8vh;
   background-image: linear-gradient(
     to right bottom,
     rgba(0, 0, 0, 0.9),
@@ -39,6 +38,10 @@ header button {
   border-radius: 10px;
   font-size: 15px;
   font-weight: bold;
+}
+
+.subscribe {
+  margin-left: 10px;
 }
 
 .toggle {
