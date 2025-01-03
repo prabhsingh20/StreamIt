@@ -4,7 +4,7 @@ import Landing from "./Landing";
 import "./home.css";
 
 function Home() {
-  const [items, setItems] = useState(homeData);
+  const [items] = useState(homeData);
 
   return (
     <>

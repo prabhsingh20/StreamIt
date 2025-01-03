@@ -14,7 +14,7 @@ function SinglePage() {
       setItem(item);
     }
   }, [id]);
-  const [recmd, setRec] = useState(recommended);
+  const [recmd] = useState(recommended);
 
   return (
     <>

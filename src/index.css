@@ -27,7 +27,7 @@ ul {
 }
 
 .container {
-  max-width: 97%;
+  max-width: 96%;
   margin: auto;
 }
 
@@ -65,14 +65,14 @@ p {
 
 .control-btn .next {
   position: absolute;
-  top: 50%;
-  right: 2%;
+  top: 42%;
+  right: 0;
 }
 
 .control-btn .prev {
   position: absolute;
-  top: 50%;
-  left: 2%;
+  top: 42%;
+  left: 0;
   z-index: 99;
 }
 

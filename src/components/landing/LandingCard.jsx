@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function LandingCard({ item }) {
-  const { id, cover, name, rating, time, desc, starring, genres, tags, video } =
+  const { id, cover, name, rating, time, desc, starring, genres, tags} =
     item;
 
   return (
