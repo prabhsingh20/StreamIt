@@ -146,3 +146,10 @@ p {
 .movieBox button i {
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  .MovieBox {
+    width: 320px;
+    height: 250px;
+  }
+}

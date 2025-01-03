@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./home/HomePage";
 import Header from "./components/Header";
 import Footer from "./components/footer/Footer";
+import SinglePage from "./components/watch/SinglePage";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/singlePage/:id" element={<SinglePage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
