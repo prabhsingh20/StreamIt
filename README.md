@@ -65,6 +65,9 @@ Follow these steps to clone the project and run it on your local machine.
   
   This project is open-source and available under the MIT License. See the LICENSE file for more information.
 
-  **✨Feel free to open issues or contribute to this project. If you have any questions or feedback, don't hesitate to reach out!✨**
+  ## Contributing
+  
+  **✨Feel free to open issues or contribute to this project. If you have any questions or feedback, don't hesitate to reach out!, We welcome contributions to improve StreamIt! If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.✨**
+
 
 
