@@ -44,7 +44,7 @@ Follow these steps to clone the project and run it on your local machine.
    Change into the project directory by running:
 
    ```bash
-   cd movie-application
+   cd streamIt
    
 3. **Install dependencies**
 
