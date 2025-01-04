@@ -37,7 +37,7 @@ Follow these steps to clone the project and run it on your local machine.
    Open your terminal and run the following command to clone the project:
 
    ```bash
-   git clone https://github.com/prabhsingh20/movie-application.git
+   git clone https://github.com/prabhsingh20/StreamIt
    
 2. **Navigate to the project directory**
 
