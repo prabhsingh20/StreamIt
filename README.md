@@ -79,13 +79,26 @@ Before running the project, ensure you have the following installed:
    npm run dev 
   This will start the Vite development server and you should see the application running at http://localhost:3000.
 
-  ## License
-  
- This project is open-source and available under the MIT License. You are free to use, modify, and distribute the code. See the LICENSE file for more details.
+## Contributing
 
-  ## Contributing
-  
-  **✨Feel free to open issues or contribute to this project. If you have any questions or feedback, don't hesitate to reach out!, We welcome contributions to improve StreamIt! If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.✨**
+✨ We welcome contributions to improve StreamIt! If you'd like to contribute, follow these steps:
 
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes.
+4. Run tests (if applicable) and ensure everything works.
+5. Commit your changes and push to your forked repository.
+6. Open a Pull Request to the main repository.
 
+Please make sure to adhere to the project's coding standards, and write meaningful commit messages. If you're unsure about anything, feel free to ask!
 
+## Testing
+
+This project currently does not have a dedicated testing suite. However, we welcome contributions to add tests and ensure robust functionality. If you'd like to help with testing, please follow the instructions below (if applicable).
+
+- To run tests:  
+  `npm run test` (or appropriate command)
+
+## License
+
+This project is open-source and available under the MIT License. You can freely use, modify, and distribute the code. Please see the [LICENSE](./LICENSE) file for more detailed information.
