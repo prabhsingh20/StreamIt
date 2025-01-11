@@ -65,13 +65,13 @@ p {
 
 .control-btn .next {
   position: absolute;
-  top: 42%;
+  top: 50%;
   right: 2rem;
 }
 
 .control-btn .prev {
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 2rem;
   z-index: 99;
 }
