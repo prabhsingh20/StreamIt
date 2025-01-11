@@ -25,16 +25,12 @@ StreamIt allows users to browse popular movies and view detailed information, in
 - **Responsive Design**: Seamless user experience across devices (desktop, tablet, mobile).
 - **Built with React.js**: Structured with React for a clean, maintainable architecture.
 
-
-
 ## Technologies Used
 
 - **React.js**: Frontend JavaScript library for building user interfaces.
 - **Vite**: A fast build tool to speed up the development process and improve performance.
 - **CSS**: For custom styling and ensuring the app is fully responsive.
 - **Movie Database API** (or other movie API): Used to fetch movie data (e.g., titles, descriptions, images) dynamically.
-
-
 
 ## How to Clone and Run the Project
 
@@ -54,16 +50,20 @@ Before running the project, ensure you have the following installed:
    Open your terminal and run the following command to clone the project to your local machine:
 
    ```bash
-   git clone https://github.com/prabhsingh20/StreamIt
+   git clone https://github.com/prabhsingh20/StreamIt.git
 
-   
+
+   ```
+
 2. **Navigate to the project directory**
 
    Change into the project directory by running:
 
    ```bash
    cd streamIt
-   
+
+   ```
+
 3. **Install dependencies**
 
    Run the following command to install the necessary dependencies:
@@ -71,13 +71,16 @@ Before running the project, ensure you have the following installed:
    ```bash
    npm install
 
+   ```
+
 4. **Start the development server**
 
    Once the dependencies are installed, you can start the app by running:
 
    ```bash
-   npm run dev 
-  This will start the Vite development server and you should see the application running at http://localhost:3000.
+   npm run dev
+   This will start the Vite development server and you should see the application running at http://localhost:3000.
+   ```
 
 ## Contributing
 
